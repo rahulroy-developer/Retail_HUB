@@ -1,0 +1,36 @@
+name: logistics_app
+description: A Smart Retail Logistics & Geo-Fenced Edge Telemetry Ecosystem.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geolocator: ^13.0.1
+  sensors_plus: ^6.1.1
+  http: ^1.2.0
+  flutter_animate: ^4.5.0
+  google_fonts: ^6.2.1
+  intl: ^0.19.0
+  google_maps_flutter: ^2.5.3
+  url_launcher: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/app_icon.png"
+  adaptive_icon_background: "#020E2E"
+  adaptive_icon_foreground: "assets/icon/app_icon.png"
+  adaptive_icon_foreground_inset: 0
+
+flutter:
+  uses-material-design: true
